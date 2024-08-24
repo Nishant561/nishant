@@ -24,7 +24,7 @@ function App() {
 
           <Route>
             <Route path='/nishant/' element={<Layou/>}>
-            
+                <Route path='' element={<Layou/>} />
               
             </Route>
           </Route>
