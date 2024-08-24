@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'port-bold-font';
+  src: url(./assets/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2);
+}
+
+@font-face {
+  font-family: 'port-light-font';
+  src: url(./assets/1Ptvg83HX_SGhgqk3wot.woff2);
+}
+
+ 
+body{
+  font-family: 'port-light-font';
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.smallNav{
+  transform: translateX(-100%);
+  transition: ease-in-out;
+  transition-duration: .6s;
+
+}
+
+.goLeft{
+  transform: translateX(0);
+}
+
+
+.wave{
+  border: 3px solid black;
+  border-radius :55% 22% 27% 57% / 36% 47% 45% 19% ;
+  animation-name:waver;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+
+@keyframes waver {
+  0%{
+    border-radius :55% 22% 27% 57% / 36% 47% 45% 19% 
+  }
+
+  50%{
+    border-radius: 36% 39% 25% 44% / 37% 27% 47% 34% ;
+  }
+
+  100%{
+    border-radius: 60% 19% 45% 19% / 48% 41% 33% 20% ;
+  }
+  
+}
+
+
+.hell{
+  transition: linear;
+  transition-duration: .3s;
+
+}
+
+.overMe:hover{
+  transform: translateY(-10px)
+}
+
+.round {
+  animation: rounder 9s linear 0s infinite forwards;
+}
+
+@keyframes rounder {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.shadowHero{
+  box-shadow: 0 0 10px rgba(4, 231, 224, 0.9);
+}
