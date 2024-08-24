@@ -1,13 +1,12 @@
 {
-  "homepage": "http://nirmalbaruwal.com.np",
+  "homepage": "https://nishant561.github.io/carrental/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-    "dev": "vite",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
