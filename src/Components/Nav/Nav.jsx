@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { IoMenu } from "react-icons/io5";
 import { IconContext } from "react-icons";
 import { IoCloseSharp } from "react-icons/io5";
+import {Link} from 'react-router-dom'
 import '../../App.css'
 function Nav() {
 
@@ -32,7 +33,7 @@ function Nav() {
         <div className='shadow-md  sticky top-0 bg-white z-40   nav-bar'>
     <nav className='w-[90%]   py-6 mx-auto flex justify-between items-center '>
                   <div className="logo">
-                    <h1  className='text-3xl font-extrabold cursor-pointer'>Nishant.dev</h1>
+                    <Link to={'/'}><h1  className='text-3xl font-extrabold cursor-pointer'>Nishant.dev</h1></Link>
                   </div>
 
                   <div className='links 900:hidden'>
