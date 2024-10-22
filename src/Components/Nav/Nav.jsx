@@ -33,7 +33,7 @@ function Nav() {
         <div className='shadow-md  sticky top-0 bg-white z-40   nav-bar'>
     <nav className='w-[90%]   py-6 mx-auto flex justify-between items-center '>
                   <div className="logo">
-                    <Link to={'/'}><h1  className='text-3xl font-extrabold cursor-pointer'>Nishant.dev</h1></Link>
+                    <Link to={'/'}><h1  className='text-3xl font-extrabold cursor-pointer'>Nishant</h1></Link>
                   </div>
 
                   <div className='links 900:hidden'>
